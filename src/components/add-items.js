@@ -34,7 +34,7 @@ class AddItem extends Component {
                 </div>
                 <div className="row">
                     <div className="col s12 m8 offset-m2 pulse">
-                        <input type="text" value={details} onChange={event => this.setState({ details: event.target.value })} placeholder="Title" />
+                        <input type="text" value={details} onChange={event => this.setState({ details: event.target.value })} placeholder="Details" />
                     </div>
                 </div>
                 <div className="row">
